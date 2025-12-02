@@ -4,14 +4,21 @@
   --radius: 12px;
 }
 body{
+  
   font-family: system-ui, -apple-system, sans-serif;
-  background: linear-gradient(180deg,#f6f7fb,#eef2f7);
+  background: linear-gradient(180deg,#000000,#922c2c);
   margin: 0;
   padding: 2rem;
   color: #111;
+  align-items: center;
+  
 }
 
-h1{ margin: 0 0 1rem 0; font-size: 1.6rem; }
+h1{ margin: 0 0 1rem 0; font-size: 1.6rem;
+  text-align: center;
+  color:brown;
+  font-size: 50px;
+ }
 
 .grid{
   display: grid;
